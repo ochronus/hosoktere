@@ -1,0 +1,233 @@
+@media (min-width: 768px) { .container { max-width: 960px; } }
+@media (min-width: 992px) { .container { max-width: 960px; } }
+@media (min-width: 1200px) { .container { max-width: 960px; } }
+
+body {
+    background-color: #f0f0f0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container {
+    background-color: white;
+    padding: 0px;
+    box-shadow: 10px 0px 5px #ddd;
+}
+
+.top-large-quote {
+    color: #0078c8;
+    font-family: "Lucida Grande";
+    font-size: 22px;
+}
+
+.bg-grid {
+    background-image: url('/img/grid_bg.jpg');
+    background-repeat: none;
+}
+
+.smaller-container {
+    width: 640px;
+    margin-left: 160px;
+}
+
+.rolunk-header {
+    background-image: url('/img/rolunk-header-bg.jpg');
+    background-repeat: none;
+    height: 410px;
+    min-height: 410px;
+}
+
+.esemenyek-header {
+    background-image: url('/img/esemenyek-bg-header.jpg');
+    background-repeat: none;
+    height: 410px;
+    min-height: 410px;
+}
+
+.trening-header {
+    background-image: url('/img/trening-bg.jpg');
+    background-repeat: none;
+    height: 410px;
+    min-height: 410px;
+}
+
+.fesztival-header {
+    background-image: url('/img/fesztival-bg.jpg');
+    background-repeat: none;
+    height: 410px;
+    min-height: 410px;   
+}
+
+.konferencia-header {
+    background-image: url('/img/konferencia-bg.jpg');
+    background-repeat: none;
+    height: 410px;
+    min-height: 410px;   
+}
+
+.zimbardo-header-bar {
+    background-image: url('/img/header-bar-zimbardo.jpg');
+    background-repeat: none;
+    height: 60px;
+    position: relative;
+    top: 10px;
+}
+
+
+.header-bar-menu a {
+    position: relative;
+    left: 485px;
+    top: 20px;
+    font-size: 16px;
+    color: white;
+    padding-right: 15px;
+    text-decoration: none;
+}
+
+.header-bar-low-menu a {
+    position: relative;
+    left: 98px;
+    top: 297px;
+    font-size: 18px;
+    color: white;
+    padding-right: 45px;
+    text-decoration: none;
+}
+
+.header-bar-social {
+    margin: 0;
+    padding: 0;
+    position: relative;
+    left: 840px;
+    bottom: 12px;
+}
+
+
+.header-bar-active {
+    color: #0dd7ff !important;
+}
+
+.header-text-container {
+    margin-left: 90px;
+    margin-right: 90px;
+    margin-top: 110px;
+}
+
+h1.header-title {
+    color: #00a1f2;
+    font-size: 22px;
+}
+
+p.header-text {
+    padding-top: 10px;
+    color: white;
+    font-size: 19px !important;
+    line-height: 30px;
+}
+
+p.body-text {
+    margin-top: 25px;
+    margin-left: 90px;
+    margin-right: 90px;
+    font-size: 14px;
+    color: #566273;
+}
+
+p.body-text-bigger {
+    margin-top: 25px;
+    margin-left: 90px;
+    margin-right: 90px;
+    font-size: 16px;
+    color: #566273;
+}
+
+p.body-text-bigger2 {
+    margin-top: 25px;
+    margin-left: 90px;
+    margin-right: 90px;
+    font-size: 18px;
+    color: #566273;
+}
+
+ol.body-text-bigger {
+    margin-left: 90px;
+    margin-right: 90px;
+    font-size: 16px;
+    color: #566273;  
+}
+
+ol.body-text-bigger li {
+    line-height: 30px;
+}
+
+h1.body-title {
+    color: #00a1f2;
+    font-size: 22px;
+    margin-left: 90px;
+    margin-right: 90px;
+}
+
+.body-left-col {
+    width: 330px;
+    font-size: 16px;
+    color: #566273;  
+    margin-left: 90px;    
+    float: left;
+}
+
+.body-right-col {
+    width: 330px;
+    font-size: 16px;
+    color: #566273;  
+    margin-right: 90px;
+    float: right;
+}
+
+img.ws-img {
+    margin-left: 90px;
+    margin-top: 20px;
+}
+
+img.first-img {
+    margin-top: 60px !important;
+}
+
+.footer {
+    margin-top: 50px;
+    background-image: url('/img/footer.jpg');
+    background-repeat: none;
+    min-height: 59px;
+    height: 59px;
+}
+
+p.footer-copyright {
+    position: relative;
+    left: 650px;
+    top: 2px;
+    color: #130000;
+    font-size: 12px;
+}
+
+.footer-bar-menu a {
+    position: relative;
+    left: 135px;
+    top: 22px;
+    font-size: 16px;
+    color: #1d71b8;
+    padding-right: 15px;
+    text-decoration: none;
+}
+
+.h-temest {
+    position: relative;
+    left: 85px !important;
+}
+
+.h-trening {
+    position: relative;
+    left: 112px !important;   
+}
+
+.h-conf {
+    position: relative;
+    left: 123px !important;   
+}
