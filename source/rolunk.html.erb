@@ -6,13 +6,12 @@ title: Rólunk | Hősök Tere
       <div class="rolunk-header">
         <div class="zimbardo-header-bar">
             <div class="header-bar-menu">
-                <a href="/rolunk.html">RÓLUNK</a>
+                <a class="header-bar-active" href="/rolunk.html">RÓLUNK</a>
                 <a href="/esemenyek.html">ESEMÉNYEK</a>
-                <a class="header-bar-active" href="/kapcsolat.html">KAPCSOLAT</a>
+                <a href="/kapcsolat.html">KAPCSOLAT</a>
             </div>
-            <div class="header-bar-social">
-                <a href=""><img src="/img/mail.jpg" /></a><a href=""><img src="/img/fb.jpg" /></a><a href=""><img src="/img/yt.jpg" /></a>
-            </div>
+            <%= partial "header_bar_social.erb" %>
+
         </div>
         <div class="header-text-container">
             <h1 class="header-title">A kezdeményezésről</h1>
