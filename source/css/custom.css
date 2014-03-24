@@ -239,3 +239,9 @@ p.footer-copyright {
     position: relative;
     left: 123px !important;   
 }
+
+.header-youtube {
+    position:relative;
+    vertical-align: center;
+left:50px;
+}
